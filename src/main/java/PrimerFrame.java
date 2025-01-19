@@ -152,7 +152,7 @@ public class PrimerFrame extends javax.swing.JFrame {
         }
         if(operacion==3){
             if(n2==0){
-                TxtResultado.setText("Error En la division , N2 no puede ser 0");
+                TxtResultado.setText("Error en la division , N2 no puede ser 0");
                 return;
             }
            resultado=n1/n2; 
