@@ -143,6 +143,7 @@ public class PrimerFrame extends javax.swing.JFrame {
         int operacion=cbOperacion.getSelectedIndex();
         if(operacion==0){
            resultado=n1+n2; 
+
         }
         if(operacion==1){
            resultado=n1-n2; 
@@ -159,7 +160,7 @@ public class PrimerFrame extends javax.swing.JFrame {
         }
 
         TxtResultado.setText("El resultado es: ");
-        TxtResultado.append(""+resultado);
+        TxtResultado.append(""+resultado+"");
     }//GEN-LAST:event_btnCalcularActionPerformed
 
     private void cbOperacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbOperacionActionPerformed
